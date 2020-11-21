@@ -3,5 +3,7 @@
 def fizzbuzz(number)
   if number.remainder(3) == 0
     return "Fizz"
+  elsif number.remainder(5) == 0
+    return "Buzz"
   end
 end
