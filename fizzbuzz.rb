@@ -3,4 +3,5 @@
 def fizzbuzz(number)
   if fizzbuzz(number).remainder(3) == 0
     puts "Fizz"
+  end
 end
