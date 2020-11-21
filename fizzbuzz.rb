@@ -2,6 +2,6 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
   if number.remainder(3) == 0
-    fizzbuzz(number) = "Fizz"
+    return "Fizz"
   end
 end
